@@ -2,6 +2,9 @@
   "compilerOptions": {
     "target": "es6",
     "module": "commonjs",
+    "moduleResolution": "node",
+    "types": ["node"],
+    "typeRoots": ["./node_modules/@types", "./node_modules/@solana"],
     "outDir": "./js",
     "strict": true,
     "esModuleInterop": true,
